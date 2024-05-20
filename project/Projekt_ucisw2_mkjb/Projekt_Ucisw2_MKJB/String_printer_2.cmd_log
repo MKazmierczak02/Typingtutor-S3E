@@ -1,0 +1,142 @@
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 
+vhdtdtfi -lib work String_printer_2.vhd -prj Projekt_Ucisw2_MKJB -o String_printer_2.spl -module String_printer_2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e String_printer_2.spl {D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.sym} 

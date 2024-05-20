@@ -1,0 +1,333 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 test1.ngc test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym test1 {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.sch} {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.sym} 
+sch2sym -intstyle ise -family spartan3e -refsym test1 {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.sch} {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.sym} 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym test1 {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.sch} {E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.sym} 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 
+xst -intstyle ise -ifn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.xst" -ofn "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 "test1.ngc" test1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test1_map.ncd test1.ngd test1.pcf 
+par -w -intstyle ise -ol high -t 1 test1_map.ncd test1.ncd test1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test1.twx test1.ncd -o test1.twr test1.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f test1.ut test1.ncd 

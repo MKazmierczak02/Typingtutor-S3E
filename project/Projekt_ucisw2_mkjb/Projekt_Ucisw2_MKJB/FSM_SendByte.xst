@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/xst"
+elaborate
+-ifn FSM_SendByte.prj
+-ifmt mixed

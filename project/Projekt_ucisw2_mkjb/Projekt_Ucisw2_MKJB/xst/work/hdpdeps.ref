@@ -1,0 +1,37 @@
+V3 22
+FL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/FSM_SendByte.vhd 2008/09/19.11:57:34 P.20131013
+EN work/FSM_SendByte 1709800017 \
+      FL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/FSM_SendByte.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/FSM_SendByte/RTL 1709800018 \
+      FL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/FSM_SendByte.vhd \
+      EN work/FSM_SendByte 1709800017
+FL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer.vhd 2024/03/07.10:09:41 P.20131013
+EN work/String_printer 1709803702 \
+      FL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/String_printer/RTL 1709803703 \
+      FL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer.vhd \
+      EN work/String_printer 1709803702
+FL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf 2024/03/07.10:28:19 P.20131013
+FL "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" 2024/04/04.10:47:58 P.20131013
+EN work/String_printer_2 1712220502 \
+      FL "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/STD_LOGIC_TEXTIO 1381692180
+AR work/String_printer_2/RTL 1712220503 \
+      FL "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" \
+      EN work/String_printer_2 1712220502
+FL "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" 2024/04/04.10:48:22 P.20131013
+EN work/test1 1712220504 \
+      FL "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/test1/BEHAVIORAL 1712220505 \
+      FL "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" \
+      EN work/test1 1712220504 CP GND CP VGAtxt48x20 CP BUF CP PS2_Kbd \
+      CP String_printer_2 CP AND3B2
+FL "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" 2024/03/21.10:49:34 P.20131013
+FL "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" 2024/03/21.10:50:50 P.20131013

@@ -1,0 +1,78 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : test1.vf
+// /___/   /\     Timestamp : 03/07/2024 09:52:26
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vf -w C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.sch
+//Design Name: test1
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module test1(btn_south, 
+             Clk_50MHz, 
+             SW_0, 
+             SW_1, 
+             SW_2, 
+             VGA_B, 
+             VGA_G, 
+             VGA_HS, 
+             VGA_R, 
+             VGA_VS);
+
+    input btn_south;
+    input Clk_50MHz;
+    input SW_0;
+    input SW_1;
+    input SW_2;
+   output VGA_B;
+   output VGA_G;
+   output VGA_HS;
+   output VGA_R;
+   output VGA_VS;
+   
+   wire XLXN_1;
+   wire [7:0] XLXN_2;
+   wire XLXN_3;
+   wire XLXN_6;
+   wire XLXN_18;
+   
+   String_printer  XLXI_2 (.Clk(Clk_50MHz), 
+                          .Reset(btn_south), 
+                          .TxBusy(XLXN_3), 
+                          .Busy(), 
+                          .DO(XLXN_2[7:0]), 
+                          .DORdy(XLXN_1));
+   BUF  XLXI_4 (.I(XLXN_6), 
+               .O(VGA_R));
+   BUF  XLXI_5 (.I(XLXN_6), 
+               .O(VGA_G));
+   BUF  XLXI_6 (.I(XLXN_6), 
+               .O(VGA_B));
+   GND  XLXI_7 (.G(XLXN_18));
+   VGAtxt48x20  XLXI_9 (.Char_DI(XLXN_2[7:0]), 
+                       .Char_WE(XLXN_1), 
+                       .Clk_Sys(Clk_50MHz), 
+                       .Clk_50MHz(Clk_50MHz), 
+                       .CursorOn(SW_0), 
+                       .Goto00(XLXN_18), 
+                       .Home(XLXN_18), 
+                       .NewLine(XLXN_18), 
+                       .ScrollClear(SW_2), 
+                       .ScrollEn(SW_1), 
+                       .Busy(XLXN_3), 
+                       .VGA_HS(VGA_HS), 
+                       .VGA_RGB(XLXN_6), 
+                       .VGA_VS(VGA_VS));
+endmodule
