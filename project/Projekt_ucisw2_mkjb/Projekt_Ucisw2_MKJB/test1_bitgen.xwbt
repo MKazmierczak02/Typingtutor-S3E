@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=D:\PWR\ITE Semestr 6\UCISW 2 Projekt\Projekt_ucisw2_mkjb\Projekt_Ucisw2_MKJB\test1.ncd
-OUTFILE=D:\PWR\ITE Semestr 6\UCISW 2 Projekt\Projekt_ucisw2_mkjb\Projekt_Ucisw2_MKJB\test1.bit
+INFILE=E:\repo\Typingtutor-S3E\project\Projekt_ucisw2_mkjb\Projekt_Ucisw2_MKJB\test1.ncd
+OUTFILE=E:\repo\Typingtutor-S3E\project\Projekt_ucisw2_mkjb\Projekt_Ucisw2_MKJB\test1.bit
 FAMILY=Spartan3E
 PART=xc3s500e-4fg320
-WORKINGDIR=D:\PWR\ITE Semestr 6\UCISW 2 Projekt\Projekt_ucisw2_mkjb\Projekt_Ucisw2_MKJB
+WORKINGDIR=E:\repo\Typingtutor-S3E\project\Projekt_ucisw2_mkjb\Projekt_Ucisw2_MKJB
 LICENSE=ISE
 USER_INFO=174693031_177724690_210785003_704

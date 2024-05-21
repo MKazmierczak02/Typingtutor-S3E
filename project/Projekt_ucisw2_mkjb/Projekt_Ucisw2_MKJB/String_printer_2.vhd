@@ -48,6 +48,18 @@ architecture RTL of String_printer_2 is
   signal cntIdxKeyboard : std_logic_vector( 7 downto 0 ) := ( others => '0' );
   
   signal regDI : STD_LOGIC_VECTOR (7 downto 0);
+  
+  
+  function map_key() return STD_LOGIC_VECTOR is
+		variable result: STD_LOGIC_VECTOR (7 downto 0);\
+		
+	begin
+	
+	
+	
+	
+	return result;
+	end function;
 
 begin
 	
@@ -122,11 +134,12 @@ begin
 		if DIRdy = '1' then
 		
 			-- czy znak jest ok
-			-- DI =('0' & CONV_STD_LOGIC_VECTOR( CHARACTER'Pos( keyboardStr( conv_integer( cntIdxKeyboard ) ) ), 7 ))
+			-- DI =
 			
 			-- klikajac literke H, przechodzi do nastepnego znaku.
 			-- TODO: porownanie znaku przychodzacego do tego ktory poiwnineb byc.
-			if DI = "00110011"  then
+			 --if DI = "00110011"  then
+			if DI = STD_LOGIC_VECTOR( to_unsigned ( CHARACTER'Pos( keyboardStr( conv_integer( cntIdxKeyboard ) )), 7)) then
 			
 				if keyboardStr( conv_integer( cntIdxKeyboard ) ) /= NUL then
 					 nextState <= keyboardReady;
