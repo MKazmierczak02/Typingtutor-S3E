@@ -6,7 +6,6 @@
         <trait edittrait="all:0" />
     </attr>
     <netlist>
-        <signal name="XLXN_1" />
         <signal name="XLXN_2(7:0)" />
         <signal name="VGA_HS" />
         <signal name="VGA_VS" />
@@ -23,12 +22,10 @@
         <signal name="PS2_Clk" />
         <signal name="PS2_Data" />
         <signal name="XLXN_47" />
-        <signal name="XLXN_50" />
         <signal name="XLXN_51(7:0)" />
         <signal name="XLXN_52" />
         <signal name="LED_0" />
         <signal name="XLXN_54" />
-        <signal name="XLXN_56" />
         <signal name="XLXN_57" />
         <signal name="XLXN_59" />
         <signal name="LED_1" />
@@ -96,7 +93,7 @@
             <line x2="0" y1="-32" y2="-32" x1="64" />
         </blockdef>
         <blockdef name="String_printer_2">
-            <timestamp>2024-4-4T8:48:2</timestamp>
+            <timestamp>2024-5-21T8:36:26</timestamp>
             <line x2="384" y1="224" y2="224" x1="320" />
             <line x2="0" y1="160" y2="160" x1="64" />
             <line x2="0" y1="32" y2="32" x1="64" />

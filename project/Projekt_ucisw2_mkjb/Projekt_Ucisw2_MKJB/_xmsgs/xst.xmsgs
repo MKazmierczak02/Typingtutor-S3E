@@ -5,65 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf</arg>&quot; line <arg fmt="%d" index="2">122</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">VGAtxt48x20</arg>&gt;.
+<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; Line <arg fmt="%d" index="2">130</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">to_unsigned</arg>&apos;.
 </msg>
 
-<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf</arg>&quot; line <arg fmt="%d" index="2">150</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">PS2_Kbd</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf</arg>&quot; line <arg fmt="%d" index="2">160</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Busy</arg>&apos; of component &apos;<arg fmt="%s" index="4">String_printer_2</arg>&apos;.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">112</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">romStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">128</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">keyboardStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">79</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
-<arg fmt="%s" index="3">&lt;DI&gt;, &lt;keyboardStr&gt;, &lt;F0&gt;</arg>
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">170</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">keyboardStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">170</arg>: Index value(s) does not match array range, simulation mismatch.
-</msg>
-
-<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">romStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
-</msg>
-
-<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">Busy</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">romStr</arg>&gt; is used but never assigned. Tied to default value.
-</msg>
-
-<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">regDI</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">keyboardStr</arg>&gt; is used but never assigned. Tied to default value.
-</msg>
-
-<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">sready</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">State</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cntIdx_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">String_printer_2</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cntIdxKeyboard_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">String_printer_2</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">cntIdxKeyboard_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">String_printer_2</arg>&gt;.
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; Line <arg fmt="%d" index="2">130</arg>. <arg fmt="%s" index="3">to_unsigned</arg>: Undefined symbol (last report in this block)
 </msg>
 
 </messages>

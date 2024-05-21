@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-04-04T10:03:59</DateModified>
+  <DateModified>2024-05-21T10:37:34</DateModified>
   <ModuleName>test1</ModuleName>
   <SummaryTimeStamp>2024-04-04T09:59:22</SummaryTimeStamp>
-  <SavedFilePath>D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/iseconfig/test1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/iseconfig/test1.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB\</ImplementationReportsDirectory>
   <DateInitialized>2024-03-21T08:12:11</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
