@@ -8,6 +8,7 @@ F0
 [Outputs]
 DORdy
 Finished
+NewLine
 Busy
 =DO[7:0]=
 [BiDir]

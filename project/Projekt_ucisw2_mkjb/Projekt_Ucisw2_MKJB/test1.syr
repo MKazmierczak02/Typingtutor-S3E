@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: test1.prj
 
@@ -106,13 +106,44 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 Compiling vhdl file "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" in Library work.
 Entity <string_printer_2> compiled.
-ERROR:HDLParsers:3312 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" Line 130. Undefined symbol 'to_unsigned'.
-ERROR:HDLParsers:1209 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" Line 130. to_unsigned: Undefined symbol (last report in this block)
+Entity <string_printer_2> (Architecture <rtl>) compiled.
+Compiling vhdl file "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" in Library work.
+Architecture behavioral of Entity test1 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <test1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <String_printer_2> in library <work> (architecture <rtl>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <test1> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" line 124: Instantiating black box module <VGAtxt48x20>.
+WARNING:Xst:2211 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" line 152: Instantiating black box module <PS2_Kbd>.
+WARNING:Xst:753 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" line 168: Unconnected output port 'Busy' of component 'String_printer_2'.
+Entity <test1> analyzed. Unit <test1> generated.
+
+Analyzing Entity <String_printer_2> in library <work> (Architecture <rtl>).
+WARNING:Xst:790 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" line 188: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <romStr> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" line 198: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <keyboardStr> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" line 199: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <keyboardStr> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" line 205: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <keyboardStr> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" line 239: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <finishedStr> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+ERROR:Xst:772 - "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" line 82: Attribute is not authorized : 'val'.
 --> 
 
-Total memory usage is 4496440 kilobytes
+Total memory usage is 4515812 kilobytes
 
-Number of errors   :    2 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
 

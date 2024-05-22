@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : test1.vhf
--- /___/   /\     Timestamp : 05/21/2024 10:37:58
+-- /___/   /\     Timestamp : 05/21/2024 13:03:08
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -46,13 +46,14 @@ architecture BEHAVIORAL of test1 is
    attribute BOX_TYPE   : string ;
    signal XLXN_2      : std_logic_vector (7 downto 0);
    signal XLXN_21     : std_logic;
-   signal XLXN_23     : std_logic;
    signal XLXN_47     : std_logic;
    signal XLXN_51     : std_logic_vector (7 downto 0);
    signal XLXN_52     : std_logic;
    signal XLXN_54     : std_logic;
    signal XLXN_57     : std_logic;
    signal XLXN_59     : std_logic;
+   signal XLXN_68     : std_logic;
+   signal XLXN_70     : std_logic;
    signal LED_0_DUMMY : std_logic;
    component GND
       port ( G : out   std_logic);
@@ -93,6 +94,14 @@ architecture BEHAVIORAL of test1 is
              Clk_Sys   : in    std_logic);
    end component;
    
+   component AND3B2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND3B2 : component is "BLACK_BOX";
+   
    component String_printer_2
       port ( Clk      : in    std_logic; 
              Reset    : in    std_logic; 
@@ -102,22 +111,15 @@ architecture BEHAVIORAL of test1 is
              DI       : in    std_logic_vector (7 downto 0); 
              DORdy    : out   std_logic; 
              Finished : out   std_logic; 
+             NewLine  : out   std_logic; 
              Busy     : out   std_logic; 
              DO       : out   std_logic_vector (7 downto 0));
    end component;
    
-   component AND3B2
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             I2 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND3B2 : component is "BLACK_BOX";
-   
 begin
    LED_0 <= LED_0_DUMMY;
    XLXI_7 : GND
-      port map (G=>XLXN_23);
+      port map (G=>XLXN_70);
    
    XLXI_9 : VGAtxt48x20
       port map (Char_DI(7 downto 0)=>XLXN_2(7 downto 0),
@@ -125,9 +127,9 @@ begin
                 Clk_Sys=>Clk_50MHz,
                 Clk_50MHz=>Clk_50MHz,
                 CursorOn=>SW_0,
-                Goto00=>XLXN_23,
-                Home=>XLXN_23,
-                NewLine=>XLXN_23,
+                Goto00=>XLXN_68,
+                Home=>XLXN_70,
+                NewLine=>XLXN_70,
                 ScrollClear=>SW_2,
                 ScrollEn=>SW_1,
                 Busy=>XLXN_52,
@@ -157,7 +159,13 @@ begin
                 E0=>XLXN_47,
                 F0=>LED_0_DUMMY);
    
-   XLXI_21 : String_printer_2
+   XLXI_22 : AND3B2
+      port map (I0=>XLXN_47,
+                I1=>LED_0_DUMMY,
+                I2=>XLXN_54,
+                O=>XLXN_57);
+   
+   XLXI_23 : String_printer_2
       port map (Clk=>Clk_50MHz,
                 DI(7 downto 0)=>XLXN_51(7 downto 0),
                 DIRdy=>XLXN_57,
@@ -167,13 +175,8 @@ begin
                 Busy=>open,
                 DO(7 downto 0)=>XLXN_2(7 downto 0),
                 DORdy=>XLXN_59,
-                Finished=>LED_1);
-   
-   XLXI_22 : AND3B2
-      port map (I0=>XLXN_47,
-                I1=>LED_0_DUMMY,
-                I2=>XLXN_54,
-                O=>XLXN_57);
+                Finished=>LED_1,
+                NewLine=>XLXN_68);
    
 end BEHAVIORAL;
 

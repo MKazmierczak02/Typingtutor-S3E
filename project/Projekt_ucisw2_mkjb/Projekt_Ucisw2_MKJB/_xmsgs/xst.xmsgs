@@ -5,10 +5,46 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="3312" delta="new" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; Line <arg fmt="%d" index="2">130</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">to_unsigned</arg>&apos;.
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf</arg>&quot; line <arg fmt="%d" index="2">124</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">VGAtxt48x20</arg>&gt;.
 </msg>
 
-<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; Line <arg fmt="%d" index="2">130</arg>. <arg fmt="%s" index="3">to_unsigned</arg>: Undefined symbol (last report in this block)
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf</arg>&quot; line <arg fmt="%d" index="2">152</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">PS2_Kbd</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf</arg>&quot; line <arg fmt="%d" index="2">168</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Busy</arg>&apos; of component &apos;<arg fmt="%s" index="4">String_printer_2</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">188</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">romStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">198</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">keyboardStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">199</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">keyboardStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">205</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">keyboardStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">239</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="old" >Contents of array &lt;<arg fmt="%s" index="1">finishedStr</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="error" file="Xst" num="772" delta="old" >&quot;<arg fmt="%s" index="1">E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd</arg>&quot; line <arg fmt="%d" index="2">82</arg>: Attribute is not authorized : &apos;<arg fmt="%s" index="3">val</arg>&apos;.
 </msg>
 
 </messages>

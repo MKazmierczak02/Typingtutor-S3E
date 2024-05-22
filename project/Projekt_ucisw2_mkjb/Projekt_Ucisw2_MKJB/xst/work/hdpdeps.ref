@@ -20,20 +20,20 @@ FL "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB
 FL "D:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" 2024/04/04.10:48:22 P.20131013
 FL "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd" 2024/03/21.10:49:34 P.20131013
 FL "E:/PWR/ITE Semestr 6/UCISW 2 Projekt/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf" 2024/03/21.10:50:50 P.20131013
-FL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd 2024/05/21.10:42:38 P.20131013
-EN work/String_printer_2 1716280980 \
+FL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd 2024/05/21.13:04:42 P.20131013
+EN work/String_printer_2 1716289512 \
       FL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/STD_LOGIC_TEXTIO 1381692180
-AR work/String_printer_2/RTL 1716280981 \
+AR work/String_printer_2/RTL 1716289513 \
       FL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd \
-      EN work/String_printer_2 1716280980
-FL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf 2024/05/21.10:38:00 P.20131013
-EN work/test1 1716280982 \
+      EN work/String_printer_2 1716289512
+FL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf 2024/05/21.13:03:10 P.20131013
+EN work/test1 1716289514 \
       FL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/test1/BEHAVIORAL 1716280983 \
+AR work/test1/BEHAVIORAL 1716289515 \
       FL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf \
-      EN work/test1 1716280982 CP GND CP VGAtxt48x20 CP BUF CP PS2_Kbd \
-      CP String_printer_2 CP AND3B2
+      EN work/test1 1716289514 CP GND CP VGAtxt48x20 CP BUF CP PS2_Kbd CP AND3B2 \
+      CP String_printer_2

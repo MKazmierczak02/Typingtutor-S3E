@@ -17,7 +17,6 @@
         <signal name="btn_south" />
         <signal name="VGA_G" />
         <signal name="XLXN_21" />
-        <signal name="XLXN_23" />
         <signal name="VGA_R" />
         <signal name="PS2_Clk" />
         <signal name="PS2_Data" />
@@ -29,6 +28,8 @@
         <signal name="XLXN_57" />
         <signal name="XLXN_59" />
         <signal name="LED_1" />
+        <signal name="XLXN_68" />
+        <signal name="XLXN_70" />
         <port polarity="Output" name="VGA_HS" />
         <port polarity="Output" name="VGA_VS" />
         <port polarity="Output" name="VGA_B" />
@@ -93,7 +94,8 @@
             <line x2="0" y1="-32" y2="-32" x1="64" />
         </blockdef>
         <blockdef name="String_printer_2">
-            <timestamp>2024-5-21T8:36:26</timestamp>
+            <timestamp>2024-5-21T11:2:52</timestamp>
+            <line x2="384" y1="288" y2="288" x1="320" />
             <line x2="384" y1="224" y2="224" x1="320" />
             <line x2="0" y1="160" y2="160" x1="64" />
             <line x2="0" y1="32" y2="32" x1="64" />
@@ -106,7 +108,7 @@
             <line x2="384" y1="-96" y2="-96" x1="320" />
             <rect width="64" x="320" y="-44" height="24" />
             <line x2="384" y1="-32" y2="-32" x1="320" />
-            <rect width="256" x="64" y="-192" height="448" />
+            <rect width="256" x="64" y="-192" height="512" />
         </blockdef>
         <blockdef name="and3b2">
             <timestamp>2000-1-1T10:10:10</timestamp>
@@ -122,13 +124,13 @@
             <line x2="144" y1="-176" y2="-176" x1="64" />
         </blockdef>
         <block symbolname="gnd" name="XLXI_7">
-            <blockpin signalname="XLXN_23" name="G" />
+            <blockpin signalname="XLXN_70" name="G" />
         </block>
         <block symbolname="VGAtxt48x20" name="XLXI_9">
             <blockpin signalname="XLXN_2(7:0)" name="Char_DI(7:0)" />
-            <blockpin signalname="XLXN_23" name="Home" />
-            <blockpin signalname="XLXN_23" name="NewLine" />
-            <blockpin signalname="XLXN_23" name="Goto00" />
+            <blockpin signalname="XLXN_70" name="Home" />
+            <blockpin signalname="XLXN_70" name="NewLine" />
+            <blockpin signalname="XLXN_68" name="Goto00" />
             <blockpin signalname="Clk_50MHz" name="Clk_Sys" />
             <blockpin signalname="Clk_50MHz" name="Clk_50MHz" />
             <blockpin signalname="SW_0" name="CursorOn" />
@@ -162,7 +164,13 @@
             <blockpin signalname="XLXN_51(7:0)" name="DO(7:0)" />
             <blockpin signalname="Clk_50MHz" name="Clk_Sys" />
         </block>
-        <block symbolname="String_printer_2" name="XLXI_21">
+        <block symbolname="and3b2" name="XLXI_22">
+            <blockpin signalname="XLXN_47" name="I0" />
+            <blockpin signalname="LED_0" name="I1" />
+            <blockpin signalname="XLXN_54" name="I2" />
+            <blockpin signalname="XLXN_57" name="O" />
+        </block>
+        <block symbolname="String_printer_2" name="XLXI_23">
             <blockpin signalname="Clk_50MHz" name="Clk" />
             <blockpin signalname="btn_south" name="Reset" />
             <blockpin signalname="XLXN_52" name="TxBusy" />
@@ -171,14 +179,9 @@
             <blockpin signalname="XLXN_51(7:0)" name="DI(7:0)" />
             <blockpin signalname="XLXN_59" name="DORdy" />
             <blockpin signalname="LED_1" name="Finished" />
+            <blockpin signalname="XLXN_68" name="NewLine" />
             <blockpin name="Busy" />
             <blockpin signalname="XLXN_2(7:0)" name="DO(7:0)" />
-        </block>
-        <block symbolname="and3b2" name="XLXI_22">
-            <blockpin signalname="XLXN_47" name="I0" />
-            <blockpin signalname="LED_0" name="I1" />
-            <blockpin signalname="XLXN_54" name="I2" />
-            <blockpin signalname="XLXN_57" name="O" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
@@ -198,7 +201,6 @@
         <branch name="VGA_B">
             <wire x2="3040" y1="784" y2="784" x1="2960" />
         </branch>
-        <instance x="1984" y="624" name="XLXI_7" orien="R90" />
         <branch name="SW_0">
             <wire x2="2192" y1="912" y2="912" x1="2160" />
         </branch>
@@ -245,14 +247,6 @@
         <iomarker fontsize="28" x="3040" y="784" name="VGA_B" orien="R0" />
         <iomarker fontsize="28" x="3040" y="720" name="VGA_G" orien="R0" />
         <instance x="2736" y="752" name="XLXI_14" orien="R0" />
-        <branch name="XLXN_23">
-            <wire x2="2144" y1="688" y2="688" x1="2112" />
-            <wire x2="2192" y1="688" y2="688" x1="2144" />
-            <wire x2="2144" y1="688" y2="752" x1="2144" />
-            <wire x2="2192" y1="752" y2="752" x1="2144" />
-            <wire x2="2144" y1="752" y2="816" x1="2144" />
-            <wire x2="2192" y1="816" y2="816" x1="2144" />
-        </branch>
         <instance x="2736" y="688" name="XLXI_16" orien="R0" />
         <branch name="VGA_R">
             <wire x2="3040" y1="656" y2="656" x1="2960" />
@@ -294,8 +288,6 @@
             <wire x2="1616" y1="1120" y2="1376" x1="1616" />
             <wire x2="1408" y1="912" y2="1120" x1="1408" />
         </branch>
-        <instance x="1408" y="752" name="XLXI_21" orien="R0">
-        </instance>
         <branch name="XLXN_54">
             <wire x2="864" y1="1072" y2="1072" x1="800" />
         </branch>
@@ -313,6 +305,21 @@
         <branch name="LED_1">
             <wire x2="1872" y1="976" y2="976" x1="1792" />
             <wire x2="1872" y1="976" y2="1344" x1="1872" />
+        </branch>
+        <instance x="1408" y="752" name="XLXI_23" orien="R0">
+        </instance>
+        <instance x="1952" y="704" name="XLXI_7" orien="R90" />
+        <branch name="XLXN_68">
+            <wire x2="1984" y1="1040" y2="1040" x1="1792" />
+            <wire x2="1984" y1="816" y2="1040" x1="1984" />
+            <wire x2="2192" y1="816" y2="816" x1="1984" />
+        </branch>
+        <branch name="XLXN_70">
+            <wire x2="2128" y1="768" y2="768" x1="2080" />
+            <wire x2="2192" y1="688" y2="688" x1="2128" />
+            <wire x2="2128" y1="688" y2="752" x1="2128" />
+            <wire x2="2128" y1="752" y2="768" x1="2128" />
+            <wire x2="2192" y1="752" y2="752" x1="2128" />
         </branch>
     </sheet>
 </drawing>
