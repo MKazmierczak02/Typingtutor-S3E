@@ -1,0 +1,5 @@
+set -tmpdir "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/xst/projnav.tmp"
+set -xsthdpdir "E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/xst"
+elaborate
+-ifn String_printer_2.prj
+-ifmt mixed

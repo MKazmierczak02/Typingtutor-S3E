@@ -31,6 +31,7 @@ architecture RTL of String_printer_2 is
     sKeyboardWE,
     keyboardBusy,
     keyboardReady,
+	 keyboardMistake,
 	 fBusyWait,
 	 fWE,	 
 	 fReset,
@@ -40,7 +41,7 @@ architecture RTL of String_printer_2 is
 	 scoreWE,
 	 scoreReady,
 	 scoreLoop,
-    tutorFinished
+    tutorFinished 
     );
   signal State, nextState : state_type; 
 
@@ -70,21 +71,43 @@ architecture RTL of String_printer_2 is
   signal mistakeCount : integer := 0;
   
   -- Function to convert integer to ASCII characters
-    function int_to_str(num : integer) return STRINGZ is
-        variable str : STRINGZ(0 to scoreStrSize-1);
-        variable tmp : integer := num;
-        variable i : integer := scoreStrSize - 1;
+function int_to_str(num : integer) return STRINGZ is
     begin
-        for j in 0 to scoreStrSize-1 loop
-            str(j) := ' ';
-        end loop;
-        while (tmp > 0) loop
-            str(i) := CHARACTER'VAL(tmp mod 10 + CHARACTER'POS('0'));
-            tmp := tmp / 10;
-            i := i - 1;
-        end loop;
-        return str;
-    end function;
+	 
+	   --if num = 0 then
+		--	return "0" & NUL & NUL & NUL;
+		--elsif num = 1 then
+		--	return "1" & NUL & NUL & NUL;
+		--end if;
+		-- return "X" & NUL & NUL & NUL;
+		
+		
+		case num is
+			when 0 => return "0";
+			when 1 => return "1";
+			when 2 => return "2";
+			when 3 => return "3";
+			when 4 => return "4";
+			when 5 => return "5";
+			when 6 => return "6";
+			when 7 => return "7" ;
+			when 8 => return "8";
+			when 9 => return "9" ;			
+			when 10 => return "10" ;
+			when 11 => return "11" ;
+			when 12 => return "12" ;
+			when 13 => return "13" ;
+			when 14 => return "14" ;
+			when 15 => return "15" ;
+			when 16 => return "16" ;
+			when 17 => return "17" ;
+			when 18 => return "18" ;
+			when 19 => return "19" ;
+			when 20 => return "20" ;
+
+			when others => return "N";
+		end case;
+end function;
 
  -- Function to map character to keycode
  function char_to_keycode(c : CHARACTER) return STD_LOGIC_VECTOR is
@@ -151,6 +174,8 @@ begin
                 cntIdxFinished <= cntIdxFinished + 1;
 				elsif State = scoreWE then
                 cntIdxScore <= cntIdxScore + 1;
+				elsif State = keyboardMistake then
+					mistakeCount <= mistakeCount + 1;
 					 
             end if;
                         
@@ -200,12 +225,16 @@ begin
                             nextState <= keyboardReady;
                         end if;
 						  else
-								mistakeCount <= mistakeCount + 1;
+								nextState <= keyboardMistake;
+								
                     end if;
 						  if keyboardStr( conv_integer( cntIdxKeyboard ) ) = NUL then		
 								nextState <= fBusyWait;
                     end if;
                 end if;
+					 
+				when keyboardMistake =>
+					nextState <= keyboardWait;
                 
             when keyboardReady =>
                 if TxBusy = '0' then 
@@ -239,7 +268,7 @@ begin
                 if finishedStr( conv_integer( cntIdxFinished ) ) /= NUL then
                     nextState <= fBusyWait;
                 else
-							scoreStr <= int_to_str(mistakeCount) & NUL;
+						scoreStr <= int_to_str(mistakeCount) & NUL & NUL & NUL;
                     nextState <= scoreReady;
                 end if;   
 					 

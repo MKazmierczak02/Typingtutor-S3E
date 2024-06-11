@@ -1,8 +1,8 @@
-AR test1 behavioral E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf sub00/vhpl05 1716289515
-EN test1 NULL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf sub00/vhpl04 1716289514
+AR test1 behavioral E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf sub00/vhpl05 1718096621
+EN test1 NULL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/test1.vhf sub00/vhpl04 1718096620
 AR string_printer rtl C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer.vhd sub00/vhpl03 1709803703
 AR fsm_sendbyte rtl C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/FSM_SendByte.vhd sub00/vhpl01 1709800018
 EN string_printer NULL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer.vhd sub00/vhpl02 1709803702
-EN string_printer_2 NULL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd sub00/vhpl06 1716289512
+EN string_printer_2 NULL E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd sub00/vhpl06 1718096618
 EN fsm_sendbyte NULL C:/Users/lab/Desktop/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/FSM_SendByte.vhd sub00/vhpl00 1709800017
-AR string_printer_2 rtl E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd sub00/vhpl07 1716289513
+AR string_printer_2 rtl E:/repo/Typingtutor-S3E/project/Projekt_ucisw2_mkjb/Projekt_Ucisw2_MKJB/String_printer_2.vhd sub00/vhpl07 1718096619
